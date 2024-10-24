@@ -1,4 +1,4 @@
-# This is the Kanban board project developed by Rushikesh.
+## This is the Kanban board project developed by Rushikesh.
 In this project, you can simply create the task or ticket along with the priority set to that ticket.
   Red - Highest priority
   Gold - medium priority
