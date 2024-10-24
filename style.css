@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toolbox-cont{
+    background-color: black;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-priority-cont{
+    height: 3rem;
+    width: 20rem;
+    background-color: white;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.round_border{
+    border-radius: 5rem;
+}
+
+.color{
+    height: 1.5rem;
+    width: 3rem;
+    border-radius: 15px;
+}
+
+.red{
+    background-color: red;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.green{
+    background-color: green;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.action-btn-cont{
+    height: 3rem;
+    width: 10rem;
+    background-color: white;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add-btn{
+    font-size: 1.75rem;
+}
+
+.remove-btn{
+    font-size: 1.5rem;
+}
+
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin:2rem 1rem;
+}
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: lightgray;
+    position: relative;
+}
+
+.ticket-color{
+    height: 1rem;
+    
+}
+
+.ticket-id{
+    background-color: lightgoldenrodyellow;
+    height: 1.5rem;
+    font-weight: 600;
+}
+
+.ticket-area{
+    padding: 5px;
+    height: calc(10rem - 1rem - 1.5rem);
+    font-size: 1.25rem;
+    overflow: auto;
+    outline: none;
+}
+
+.modal-cont{
+    height: 50vh;
+    width: 50vw;
+    display: none;
+    position: fixed;
+    left: 25vw;
+    top: 25vh;
+    border: 2px solid grey;
+}
+
+.textarea{
+    height: 100%;
+    width: 75vw;
+    resize: none;
+    outline: none;
+    border: none;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-right: 2px solid grey;
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: lightgoldenrodyellow;
+}
+
+.priority-color{
+    border-radius: 20px;
+    height: 2rem;
+    width: 4rem;
+}
+
+.active{
+    outline: 5px solid orchid;
+}
+
+.lock-unlock-btn{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
